@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_people"
+            android:title="Друзья" />
+        <item
+            android:id="@+id/nav_peoples"
+            android:icon="@mipmap/ic_people"
+            android:title="Люди" />
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@mipmap/ic_place"
+            android:title="Места" />
+        <item
+            android:id="@+id/nav_meets"
+            android:icon="@mipmap/ic_place"
+            android:title="Встречи" />
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@mipmap/ic_place"
+            android:title="Задачи" />
+        <item
+            android:id="@+id/nav_isee"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Мой горизонт" />
+    </group>
+
+</menu>
